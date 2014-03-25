@@ -5,8 +5,9 @@
     "author": {
         "name": "Hans Hammel"
     },
-  "maintainers": [
-    {
+    "private": true,
+    "maintainers": [
+        {
         "name": "HansHammel",
         "email": "oh.schitt@freenet.de"
     }
