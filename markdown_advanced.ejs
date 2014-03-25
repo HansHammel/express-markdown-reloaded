@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title><%= title %></title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" href='<%= stylesheeturl %>'>
+    <style>
+        body {
+            background-color: white;
+            padding: 50px 50px
+        }
+
+        pre {
+            background-color: #eee;
+            overflow: auto;
+            margin: 0 0 1em;
+            padding: .5em 1em;
+        }
+
+        pre code,
+        pre .line-number {
+            /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
+            font: normal normal 12px/14px "Courier New", Courier, Monospace;
+            color: black;
+            display: block;
+        }
+
+        pre .line-number {
+            float: left;
+            margin: 0 1em 0 -1em;
+            border-right: 1px solid;
+            text-align: right;
+        }
+
+        pre .line-number span {
+            display: block;
+            padding: 0 .5em 0 1em;
+        }
+
+        pre .cl {
+            display: block;
+            clear: both;
+        }
+    </style>
+    <style>
+        <%- styleraw %>
+    </style>
+</head>
+<body>
+<div class="container">
+    <%- content %>
+</div>
+<script defer="defer" type="text/javascript" src='<%= jsscripturl %>'></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        //jQuery('pre code').each(function(i, e) {
+        jQuery('pre').each(function (i, e) {
+            hljs.highlightBlock(e, '    ');
+        });
+        (function () {
+            var pre = document.getElementsByTagName('pre'),
+                    pl = pre.length;
+            for (var i = 0; i < pl; i++) {
+                pre[i].innerHTML = '<span class="line-number"></span>' + pre[i].innerHTML + '<span class="cl"></span>';
+                var num = pre[i].innerHTML.split(/\n/).length;
+                for (var j = 0; j < num; j++) {
+                    var line_num = pre[i].getElementsByTagName('span')[0];
+                    line_num.innerHTML += '<span>' + (j + 1) + '</span>';
+                }
+            }
+        })();
+    });
+</script>
+
+
+<!-- google code prettiy -->
+<!--
+<script defer src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?autoload=true"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+   jQuery('pre').each(function(){
+    $(this).addClass('prettyprint');
+});
+});
+</script>
+-->
+<script defer="defer"><%= jsraw %></script>
+</body>
+</html>
