@@ -4,6 +4,7 @@ express-markdown
 Express middleware for rendering markdown files
 
 It looks for URLs ending in ".md" or ".markdown", example: http://mysite.com/README.md
+
 supports:
 - camel case path routing
 - highlighting (client and/or server side)
@@ -51,11 +52,11 @@ Usage
         // default is undefined, no view -> raw html content
         view: 'markdown',
         
-		    // include raw text in hidden div
-		    includerawtext: true,
+        // include raw text in hidden div
+        includerawtext: true,
 
-		    // load epic editor
-		    loadepiceditor: true,
+        // load epic editor, for use with markdown_epiceditor.ejs
+        loadepiceditor: true,
         
         //optional
         // options for marked (see [https://github.com/chjj/marked](https://github.com/chjj/marked))
