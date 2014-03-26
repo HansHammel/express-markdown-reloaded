@@ -22,6 +22,7 @@ Installation
 Usage
 -----
 
+```javascript
     var expressmarkdown = require('express-markdown');
 
     //optional
@@ -32,7 +33,6 @@ Usage
     app.set('views', path.join(__dirname, 'views'));
     // set .ejs as the default extension
     app.set('view engine', 'ejs');
-
 
     // !!!IMPORTANT: place this before static or similar middleware
     app.use('/docs',expressmarkdown({
@@ -51,13 +51,13 @@ Usage
         // optional
         // default is undefined, no view -> raw html content
         view: 'markdown',
-        
+
         // include raw text in hidden div
         includerawtext: true,
 
         // load epic editor, for use with markdown_epiceditor.ejs
         loadepiceditor: true,
-        
+
         //optional
         // options for marked (see [https://github.com/chjj/marked](https://github.com/chjj/marked))
         // tip: skip the server side highlighting function and use markdown_advanced.ejs with client
@@ -97,9 +97,11 @@ Usage
     // optional
     // and maybe we want to list the files
     app.use('/docs',express.directory(path.join(__dirname,'docs'), { icons:true });
+```
 
 sample ejs template for your view directory (markdown.ejs)
 
+```html
     <!DOCTYPE html>
     <html>
         <head>
@@ -118,3 +120,4 @@ sample ejs template for your view directory (markdown.ejs)
             <script defer="defer" ><%= jsraw %></script>
         </body>
     </html>
+```
