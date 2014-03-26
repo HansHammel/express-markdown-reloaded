@@ -18,10 +18,6 @@ Installation
 	git clone git://github.com/HansHammel/express-markdown.git
 	npm install
 
-	or
-
-	npm install git+https://git@github.com/HansHammel/express-markdown.git
-
 Usage
 -----
 
@@ -54,7 +50,13 @@ Usage
         // optional
         // default is undefined, no view -> raw html content
         view: 'markdown',
+        
+		    // include raw text in hidden div
+		    includerawtext: true,
 
+		    // load epic editor
+		    loadepiceditor: true,
+        
         //optional
         // options for marked (see [https://github.com/chjj/marked](https://github.com/chjj/marked))
         // tip: skip the server side highlighting function and use markdown_advanced.ejs with client

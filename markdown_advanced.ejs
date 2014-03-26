@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8"/>
     <title><%= title %></title>
-    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <link rel="stylesheet" href='<%= stylesheeturl %>'>
     <style>
         body {
@@ -21,7 +21,6 @@
 
         pre code,
         pre .line-number {
-            /* Ukuran line-height antara teks di dalam tag <code> dan <span class="line-number"> harus sama! */
             font: normal normal 12px/14px "Courier New", Courier, Monospace;
             color: black;
             display: block;
@@ -53,7 +52,7 @@
     <%- content %>
 </div>
 <script defer="defer" type="text/javascript" src='<%= jsscripturl %>'></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.0/highlight.min.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function () {
         //jQuery('pre code').each(function(i, e) {
@@ -75,7 +74,6 @@
     });
 </script>
 
-
 <!-- google code prettiy -->
 <!--
 <script defer src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?autoload=true"></script>
@@ -87,6 +85,7 @@ jQuery(document).ready(function(){
 });
 </script>
 -->
+
 <script defer="defer"><%= jsraw %></script>
 </body>
 </html>
