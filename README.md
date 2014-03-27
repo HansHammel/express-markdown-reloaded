@@ -19,6 +19,10 @@ Installation
 	git clone git://github.com/HansHammel/express-markdown.git
 	npm install
 
+or
+
+    npm install "git+https://git@github.com/HansHammel/express-markdown.git" --save
+
 Usage
 -----
 
