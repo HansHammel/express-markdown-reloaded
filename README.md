@@ -125,3 +125,20 @@ sample ejs template for your view directory (markdown.ejs)
     </body>
 </html>
 ```
+
+Known issues
+============
+
+- none
+
+Contribution
+============
+
+if you would like to help improving this module, please:
+- write tests
+- help debugging/ solving the known issues
+- send bug fixes/ pull request
+- if you use this module, provide a link for reference
+
+Changelog
+=========
