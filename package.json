@@ -1,36 +1,37 @@
 {
-    "name": "express-markdown",
-    "description": "Express middleware for rendering markdown files",
-    "version": "0.0.8",
-    "author": {
-        "name": "Hans Hammel"
-    },
-    "maintainers": [
-        {
-            "name": "HansHammel",
-            "email": "oh.schitt@freenet.de"
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/HansHammel/express-markdown.git"
-    },
-    "directories": {
-        "lib": "./lib"
-    },
-    "main": "./lib/markdown",
-    "licenses": [
-        {
-            "type": "Apache 2.0",
-            "url": "https://github.com/JamesHight/express-markdown/blob/master/LICENSE"
-        }
-    ],
-    "dependencies": {
-        "marked": "*"
-    },
-    "devDependencies": {},
-    "optionalDependencies": {},
-    "engines": {
-        "node": "*"
+  "name": "express-markdown",
+  "description": "Express middleware for rendering markdown files",
+  "version": "0.1.0",
+  "author": {
+    "name": "Hans Hammel"
+  },
+  "maintainers": [
+    {
+      "name": "HansHammel",
+      "email": "oh.schitt@freenet.de"
     }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HansHammel/express-markdown.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/markdown",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "https://github.com/JamesHight/express-markdown/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "extend": "^3.0.0",
+    "marked": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }

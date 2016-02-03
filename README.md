@@ -12,6 +12,9 @@ supports:
 - marked options
 - templates
 
+![Render View with marked.js](screenshots/render.jpg?raw=true "Render View with marked.js")
+![Editor View of EpicEditor](screenshots/edit.jpg?raw=true "Editor View of EpicEditor")
+![Preview View of EpicEditor](screenshots/preview.jpg?raw=true "Preview View of EpicEditor")
 
 Installation
 ------------
@@ -100,7 +103,7 @@ app.use('/docs',express.static(path.join(__dirname,'docs'), { maxAge: 0 }));
 
 // optional
 // and maybe we want to list the files
-app.use('/docs',express.directory(path.join(__dirname,'docs'), { icons:true });
+app.use('/docs',express.directory(path.join(__dirname,'docs'), { icons:true }));
 ```
 
 sample ejs template for your view directory (markdown.ejs)
