@@ -6,12 +6,6 @@
     "name": "Oliver Bleckmann",
     "url": "https://github.com/HansHammel"
   },
-  "maintainers": [
-    {
-      "name": "HansHammel",
-      "email": "oh.schitt@freenet.de"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/HansHammel/express-markdown.git"
