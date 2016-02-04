@@ -2,10 +2,18 @@ var express = require('express');
 var app = express();
 var serveIndex = require('serve-index');
 var path= require('path');
-var expressmarkdown = require('../lib/markdown.js');
+var expressmarkdown = require('../index.js');
 var open=require('open');
 var fs = require('fs');
 var highlightjs = require('highlight.js');
+
+var expressmarkdownpath=null;
+try{
+    expressmarkdownpath=require.resolve('express-markdown')
+}catch(err){}
+try{
+    expressmarkdownpath=require.resolve('../index.js')
+}catch(err){}
 
 //app.use(express.bodyParser());
 app.post('/savemarkdownfiles', function(req, res) {
@@ -28,7 +36,9 @@ app.post('/savemarkdownfiles', function(req, res) {
 
 // optional
 // set view engine
-app.set('views', path.join(__dirname, 'views'));
+//use this in your project and copy required ejs templates from node_modules/express-markdown/ejs-samples to your views
+//app.set('views', path.join(__dirname, 'views'));
+app.set('views',path.join(path.dirname(expressmarkdownpath),'ejs-templates'));
 // set .ejs as the default extension
 app.set('view engine', 'ejs');
 

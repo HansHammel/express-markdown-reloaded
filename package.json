@@ -3,7 +3,8 @@
   "description": "Express middleware for rendering markdown files",
   "version": "0.1.0",
   "author": {
-    "name": "Hans Hammel"
+    "name": "Oliver Bleckmann",
+    "url": "https://github.com/HansHammel"
   },
   "maintainers": [
     {
@@ -18,7 +19,7 @@
   "directories": {
     "lib": "./lib"
   },
-  "main": "./lib/markdown",
+  "main": "index.js",
   "licenses": [
     {
       "type": "Apache 2.0",
