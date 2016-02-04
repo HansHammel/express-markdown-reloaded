@@ -1,7 +1,7 @@
 {
   "name": "express-markdown",
   "description": "Express middleware for rendering markdown files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Oliver Bleckmann",
     "url": "https://github.com/HansHammel"
@@ -14,12 +14,11 @@
     "lib": "./lib"
   },
   "main": "index.js",
-  "licenses": [
-    {
-      "type": "Apache 2.0",
-      "url": "https://github.com/JamesHight/express-markdown/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HansHammel/express-markdown/issues"
+  },
+  "homepage": "https://github.com/HansHammel/express-markdown",
   "dependencies": {
     "extend": "^3.0.0",
     "marked": "*"
