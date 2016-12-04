@@ -1,31 +1,32 @@
 {
-  "name": "express-markdown",
+  "name": "express-markdown-reloaded",
   "description": "Express middleware for rendering markdown files",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": {
     "name": "Oliver Bleckmann",
     "url": "https://github.com/HansHammel"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/HansHammel/express-markdown.git"
+    "url": "git://github.com/HansHammel/express-markdown-reloaded.git"
   },
   "directories": {
     "lib": "./lib"
   },
+  "keywords": ["express","markdown","docs","write","edit","save","preview","node.js","express.js","md","editor","render","renderer","documentation"],
   "main": "index.js",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HansHammel/express-markdown/issues"
+    "url": "https://github.com/HansHammel/express-markdown-reloaded/issues"
   },
-  "homepage": "https://github.com/HansHammel/express-markdown",
+  "homepage": "https://github.com/HansHammel/express-markdown-reloaded",
   "dependencies": {
     "extend": "^3.0.0",
-    "marked": "*"
+    "marked": "^0.3.6"
   },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": ">=0.12.0"
   }
 }

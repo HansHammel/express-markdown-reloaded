@@ -23,7 +23,7 @@ lib-cov
 pids
 logs
 results
-node_modules
-.idea
-example
-screenshots
+node_modules/
+.idea/
+example/node_modules/
+screenshots/

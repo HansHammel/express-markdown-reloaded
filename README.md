@@ -19,18 +19,22 @@ supports:
 Installation
 ------------
 
-	git clone git://github.com/HansHammel/express-markdown.git
+    npm install express-markdown-reloaded --save
+
+or
+
+	git clone git://github.com/HansHammel/express-markdown-reloaded.git
 	npm install
 
 or
 
-    npm install "git+https://git@github.com/HansHammel/express-markdown.git" --save
+    npm install "git+https://git@github.com/HansHammel/express-markdown-reloaded.git" --save
 
 Usage
 -----
 
 ```javascript
-var expressmarkdown = require('express-markdown');
+var expressmarkdown = require('express-markdown-reloaded');
 
 //optional
 var highlightjs = require('highlight.js');
