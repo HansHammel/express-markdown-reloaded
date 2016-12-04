@@ -23,8 +23,13 @@ Installation
 
 or
 
-	git clone git://github.com/HansHammel/express-markdown-reloaded.git
+	git clone https://github.com/HansHammel/express-markdown-reloaded.git
+	cd express-markdown-reloaded
 	npm install
+
+	cd example
+	npm install
+	npm start
 
 or
 
