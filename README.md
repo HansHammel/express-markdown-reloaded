@@ -1,5 +1,22 @@
-express-markdown
-================
+express-markdown-reloaded
+=========================
+
+[![NPM](https://nodei.co/npm/express-markdown-reloaded.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/express-markdown-reloaded/) 
+[![NPM](https://nodei.co/npm-dl/express-markdown-reloaded.png?months=9&height=3)](https://nodei.co/npm/express-markdown-reloaded/)
+[![npm version](https://img.shields.io/npm/v/express-markdown-reloaded.svg)](https://www.npmjs.com/package/express-markdown-reloaded)
+[![npm license](https://img.shields.io/npm/l/express-markdown-reloaded.svg)](https://www.npmjs.com/package/express-markdown-reloaded)
+[![npm download](https://img.shields.io/npm/dm/express-markdown-reloaded.svg)](https://www.npmjs.com/package/express-markdown-reloaded)
+[![npm download](https://img.shields.io/npm/dt/express-markdown-reloaded.svg)](https://www.npmjs.com/package/express-markdown-reloaded)
+[![Package Quality](http://npm.packagequality.com/shield/express-markdown-reloaded.svg)](http://packagequality.com/#?package=express-markdown-reloaded)
+[![Inline docs](http://inch-ci.org/github/HansHammel/express-markdown-reloaded.svg?branch=master)](http://inch-ci.org/github/HansHammel/express-markdown-reloaded)
+[![star this repo](http://githubbadges.com/star.svg?user=HansHammel&repo=express-markdown-reloaded&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/express-markdown-reloaded)
+[![fork this repo](http://githubbadges.com/fork.svg?user=HansHammel&repo=express-markdown-reloaded&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/express-markdown-reloaded/fork)
+[![david dependency](https://img.shields.io/david/HansHammel/express-markdown-reloaded.svg)](https://david-dm.org/HansHammel/express-markdown-reloaded)
+[![david devDependency](https://img.shields.io/david/dev/HansHammel/express-markdown-reloaded.svg)](https://david-dm.org/HansHammel/express-markdown-reloaded)
+[![david optionalDependency](https://img.shields.io/david/optional/HansHammel/express-markdown-reloaded.svg)](https://david-dm.org/HansHammel/express-markdown-reloaded)
+[![david peerDependency](https://img.shields.io/david/peer/HansHammel/express-markdown-reloaded.svg)](https://david-dm.org/HansHammel/express-markdown-reloaded)
+[![npms score](https://badges.npms.io/express-markdown-reloaded.svg)](https://www.npmjs.com/package/express-markdown-reloaded)
+[![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/express-markdown-reloaded/badge.svg)](https://snyk.io/test/github/HansHammel/express-markdown-reloaded)
 
 Express middleware for rendering markdown files
 
