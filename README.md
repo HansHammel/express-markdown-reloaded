@@ -2,7 +2,7 @@ express-markdown-reloaded
 =========================
 
 [![NPM](https://nodei.co/npm/express-markdown-reloaded.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/express-markdown-reloaded/) 
-[![NPM](https://nodei.co/npm-dl/express-markdown-reloaded.png?months=9&height=3)](https://nodei.co/npm/express-markdown-reloaded/)
+[![NPM](https://nodei.co/npm-dl/express-markdown-reloaded.png?months=6&height=3)](https://nodei.co/npm/express-markdown-reloaded/)
 
 [![npm version](https://img.shields.io/npm/v/express-markdown-reloaded.svg)](https://www.npmjs.com/package/express-markdown-reloaded)
 [![npm license](https://img.shields.io/npm/l/express-markdown-reloaded.svg)](https://www.npmjs.com/package/express-markdown-reloaded)
