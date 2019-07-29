@@ -17,7 +17,7 @@ express-markdown-reloaded
 [![david optionalDependency](https://img.shields.io/david/optional/HansHammel/express-markdown-reloaded.svg)](https://david-dm.org/HansHammel/express-markdown-reloaded)
 [![david peerDependency](https://img.shields.io/david/peer/HansHammel/express-markdown-reloaded.svg)](https://david-dm.org/HansHammel/express-markdown-reloaded)
 [![npms score](https://badges.npms.io/express-markdown-reloaded.svg)](https://www.npmjs.com/package/express-markdown-reloaded)
-[![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/express-markdown-reloaded/badge.svg)](https://snyk.io/test/github/HansHammel/express-markdown-reloaded)
+[![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/express-markdown-reloaded/badge.svg)](https://snyk.io/test/github/HansHammel/express-markdown-reloaded) [![Greenkeeper badge](https://badges.greenkeeper.io/HansHammel/express-markdown-reloaded.svg)](https://greenkeeper.io/)
 
 Express middleware for rendering markdown files
 
