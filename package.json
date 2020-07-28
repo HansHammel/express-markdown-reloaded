@@ -22,7 +22,7 @@
   "homepage": "https://github.com/HansHammel/express-markdown-reloaded",
   "dependencies": {
     "extend": "^3.0.0",
-    "marked": "^0.7.0"
+    "marked": "^1.1.1"
   },
   "devDependencies": {},
   "optionalDependencies": {},
