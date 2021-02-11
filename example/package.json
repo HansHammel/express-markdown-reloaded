@@ -6,7 +6,22 @@
   "directories": {
     "doc": "docs"
   },
-  "keywords": ["express","markdown","docs","write","edit","save","preview","node.js","express.js","md","editor","render","renderer","documentation"],
+  "keywords": [
+    "express",
+    "markdown",
+    "docs",
+    "write",
+    "edit",
+    "save",
+    "preview",
+    "node.js",
+    "express.js",
+    "md",
+    "editor",
+    "render",
+    "renderer",
+    "documentation"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -25,10 +40,10 @@
   "homepage": "https://github.com/HansHammel/express-markdown-reloaded",
   "license": "MIT",
   "dependencies": {
-    "ejs": "^2.5.3",
-    "express": "^4.14.0",
-    "highlight.js": "^10.4.1",
-    "open": "^6.4.0",
-    "serve-index": "^1.8.0"
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "highlight.js": "^10.6.0",
+    "open": "^7.4.0",
+    "serve-index": "^1.9.1"
   }
 }

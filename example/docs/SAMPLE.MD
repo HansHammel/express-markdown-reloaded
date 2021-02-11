@@ -1,9 +1,9 @@
 Sample Markdown File
 ====================
 
-# This is an  tag
-## This is an  tag
-###### This is an  tag
+# This is an tag
+## This is an tag
+###### This is an tag
 
 *This text will be italic*
 _This will also be italic_
@@ -15,14 +15,14 @@ _You **can** combine them_
 
 * Item 1
 * Item 2
-  * Item 2a
-  * Item 2b
+* Item 2a
+* Item 2b
 
 1. Item 1
 2. Item 2
 3. Item 3
-   * Item 3a
-   * Item 3b
+* Item 3a
+* Item 3b
 
 ![GitHub Logo](https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png)
 
@@ -35,4 +35,4 @@ As Kanye West said:
 > the present is our past.
 
 I think you should use an
-`` element here instead.ment here instead.ement here instead.ment here instead.
+`` element here instead.ment here instead.ement here instead.ment here instead.here instead.
