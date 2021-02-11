@@ -1,7 +1,7 @@
 {
   "name": "express-markdown-reloaded",
   "description": "Express middleware for rendering markdown files",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "author": {
     "name": "Oliver Bleckmann",
     "url": "https://github.com/HansHammel"
@@ -12,6 +12,10 @@
   },
   "directories": {
     "lib": "./lib"
+  },
+  "scripts": {
+	"postinstall": "cd example && npm i",
+	"test": "cd example && node server.js"
   },
   "keywords": [
     "express",
