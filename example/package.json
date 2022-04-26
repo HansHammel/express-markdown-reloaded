@@ -40,7 +40,7 @@
   "homepage": "https://github.com/HansHammel/express-markdown-reloaded",
   "license": "MIT",
   "dependencies": {
-    "ejs": "^3.1.6",
+    "ejs": "^3.1.7",
     "express": "^4.17.1",
     "highlight.js": "^10.6.0",
     "open": "^7.4.0",
